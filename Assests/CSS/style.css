@@ -20,3 +20,37 @@ body{
     background-color: #217e27;
     color: white;
   }
+
+.jumbotron{
+    background-color: white;
+    text-align: center;
+}
+
+.row{
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+div .row > :first-child{
+    text-align: center;
+    border-top: dashed;
+}
+
+.saveBtn{
+    background-color: #4fbddb;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.timeBlockContainer{
+    justify-content: center;
+    margin: 25px auto;
+    padding: 15px 15px;
+    border-top: 15px solid black;
+}
+
+textarea{
+    resize: none;
+    border: 1px solid black;
+}
