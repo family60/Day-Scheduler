@@ -102,3 +102,15 @@ if(hour < 17){
 } else if(hour > 17){
     $("#5pm-description").addClass("past");
 }
+
+//The following will load the saved desciptions from local storage and populate the text areas
+//gets the items from local storage by using the time block id's as the key
+$("#9am .description").val(localStorage.getItem("9am"));
+$("#10am .description").val(localStorage.getItem("10am"));
+$("#11am .description").val(localStorage.getItem("11am"));
+$("#12pm .description").val(localStorage.getItem("12pm"));
+$("#1pm .description").val(localStorage.getItem("1pm"));
+$("#2pm .description").val(localStorage.getItem("2pm"));
+$("#3pm .description").val(localStorage.getItem("3pm"));
+$("#4pm .description").val(localStorage.getItem("4pm"));
+$("#5pm .description").val(localStorage.getItem("5pm"));
