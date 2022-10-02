@@ -12,4 +12,4 @@ This is what a the project looks like when the work day is complete and only som
 ![image](https://user-images.githubusercontent.com/80120484/193481838-d9d771e7-5902-481a-9529-5b45fb93150d.png)
 
 ## Deployment
-Here is the link to a live demo of the project: 
+Here is the link to a live demo of the project: https://family60.github.io/Day-Scheduler/
